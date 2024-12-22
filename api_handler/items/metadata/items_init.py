@@ -10,7 +10,7 @@ from db_handler.db_handler_mongo import db_handler_mongo
 
 items_db_envkey : str = 'MONGODB_ITEM_DB_NAME'
 items_collection_envkey : str = 'MONGODB_ITEM_COLLECTION_NAME'
-items_env_path : str = 'api_handler/items/metadata/.env'
+items_env_path : str = 'api_handler/items/metadata/items_api.env'
 
 # --- #
 
