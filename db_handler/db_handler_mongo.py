@@ -8,7 +8,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 db_username_envkey : str = 'MONGODB_USERNAME'
 db_password_envkey : str = 'MONGODB_PASSWORD'
 db_cluster_envkey : str = 'MONGODB_CLUSTER'
-db_env_path : str = 'db_handler/metadata/.env'
+db_env_path : str = 'db_handler/metadata/db_handler.env'
 
 # --- #
 
