@@ -1,0 +1,11 @@
+@id = 7
+@name = "item7"
+
+#POST items/id
+POST http://127.0.0.1:8000/items/
+content-type: application/json
+
+{
+    "id": {{id}},
+    "name": {{name}}
+}

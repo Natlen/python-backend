@@ -1,0 +1,11 @@
+@id = 6
+@name = "item6"
+
+#PUT /items/id
+PUT http://127.0.0.1:8000/items/
+Content-Type: application/json
+
+{
+    "id": {{id}},
+    "name": {{name}}
+}
